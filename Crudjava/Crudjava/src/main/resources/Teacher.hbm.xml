@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping package="com.Models" >
+    <class name="Teacher" table="teachers">
+        <!-- Primary key mapping -->
+        <id name="teacherId" column="teachId"/>
+
+
+        <property name="firstName" column="firstName"/>
+        <property name="lastName" column="lastName"/>
+
+    </class>
+</hibernate-mapping>
